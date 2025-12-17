@@ -106,11 +106,11 @@
 		<div class="relative z-10 flex items-center gap-4 text-[10px] font-mono text-white/50">
 			<div class="flex items-center gap-2 text-white">
 				<span class="w-2 h-2 bg-white rounded-full"></span>
-				HUMAN
+				LEGITIMATE
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="w-2 h-2 border border-white/50 rounded-full"></span>
-				MACHINE
+				BOT
 			</div>
 		</div>
 	</div>

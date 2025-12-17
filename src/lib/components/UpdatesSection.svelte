@@ -49,11 +49,11 @@
 				<div class="space-y-12">
 					<!-- Update 1 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 20</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">January 15</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Extract</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Network-level detection now live</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Extract converts web pages into LLM-ready markdown format. It operates in two modes: compressed excerpts (dense, semantically relevant content) and full content extraction (complete page content). The API is designed for AI agents and handles challenging web content including JavaScript-rendered sites and complex PDFs, making it useful for tasks like documentation extraction, research paper processing, and financial filing analysis.
+								Centinel's advanced network-level detection identifies stealth bots that evade traditional fingerprinting methods. This proprietary technology, built from 15+ years of scraper development expertise, detects 30% more threats than competing solutions while maintaining zero false positives for legitimate crawlers.
 							</p>
 							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
 						</div>
@@ -61,26 +61,26 @@
 
 					<!-- Update 2 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 15</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">December 8</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel FindAll</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">European publishers achieve 28% cost reduction</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel's new FindAll API turns natural language queries into custom datasets from the web. It finds entities like companies, people, or locations based on your criteria, then enriches them with structured data—all with citations. FindAll Pro achieves 61% recall, 3x better than competitors.
+								Major European publishers report average 28% reduction in AWS and CDN costs within 60 days of deploying Centinel. By blocking bot traffic at the edge, publishers eliminate wasteful infrastructure spending while protecting premium content from AI scrapers.
 							</p>
 							<div class="flex gap-2">
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Benchmarks</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Case Study</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">ROI</span>
 							</div>
 						</div>
 					</div>
 
 					<!-- Update 3 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 13</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 22</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Monitor</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">GDPR-compliant bot protection for EU publishers</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Monitor can be thought of as a web search that's always on: you define a query that kicks off an ongoing stream of updates every time new related information appears on the web.
+								Centinel launches fully German-hosted infrastructure, providing EU data sovereignty and GDPR compliance by design. European publishers can now protect their content without compromising on data privacy or regulatory requirements.
 							</p>
 							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
 						</div>
@@ -88,13 +88,13 @@
 
 					<!-- Update 4 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 12</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">October 10</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Parallel raises $100M Series A to build web infrastructure for agents</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Centinel processes 500M+ requests monthly</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel raises $100M Series A at a 740M valuation.
+								Centinel's platform now handles over 500 million requests per month across publisher clients, identifying an average of 24% bot traffic while maintaining zero SEO impact through intelligent crawler whitelisting.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Fundraise</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Milestone</span>
 						</div>
 					</div>
 				</div>

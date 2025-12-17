@@ -92,11 +92,11 @@
 			<div class="absolute bottom-4 right-4 flex items-center gap-4 text-[10px]">
 				<div class="flex items-center gap-1">
 					<div class="w-2 h-2 bg-accent rounded-full"></div>
-					<span class="text-accent font-bold">PARALLEL</span>
+					<span class="text-accent font-bold">CENTINEL</span>
 				</div>
 				<div class="flex items-center gap-1">
 					<div class="w-2 h-2 bg-black rounded-full"></div>
-					<span class="text-muted">OTHERS</span>
+					<span class="text-muted">COMPETITORS</span>
 				</div>
 			</div>
 		</div>
