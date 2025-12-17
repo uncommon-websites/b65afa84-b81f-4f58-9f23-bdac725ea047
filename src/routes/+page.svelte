@@ -3,6 +3,7 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import FeaturesGrid from '$lib/components/FeaturesGrid.svelte';
 	import ChartSection from '$lib/components/ChartSection.svelte';
+	import PricingSection from '$lib/components/PricingSection.svelte';
 	import FeatureBlocks from '$lib/components/FeatureBlocks.svelte';
 	import UpdatesSection from '$lib/components/UpdatesSection.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -13,6 +14,7 @@
 	<Hero />
 	<FeaturesGrid />
 	<ChartSection />
+	<PricingSection />
 	<FeatureBlocks />
 	<UpdatesSection />
 	<Footer />

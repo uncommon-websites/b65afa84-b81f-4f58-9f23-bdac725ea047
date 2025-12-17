@@ -5,19 +5,19 @@
 	--font-sans: 'Schibsted Grotesk', sans-serif;
 	--font-mono: 'JetBrains Mono', monospace;
 
-	/* Sovereign Pine - Emerald/Teal Green Palette */
-	--color-pine-950: #0a2f2a;
-	--color-pine-900: #0f3d36;
-	--color-pine-800: #165449;
-	--color-pine-700: #1d6b5c;
-	--color-pine-600: #24826f;
-	--color-pine-500: #2fa88a;
-	--color-pine-400: #4bc4a3;
-	--color-pine-300: #7dd9bc;
-	--color-pine-200: #afebd5;
-	--color-pine-100: #d7f5eb;
-	--color-pine-50: #f0fdf9;
-	
+	/* Centinel Blue Palette - Based on #3B82F6 */
+	--color-blue-950: #0c1929;
+	--color-blue-900: #1e3a5f;
+	--color-blue-800: #1e40af;
+	--color-blue-700: #1d4ed8;
+	--color-blue-600: #2563eb;
+	--color-blue-500: #3b82f6;
+	--color-blue-400: #60a5fa;
+	--color-blue-300: #93c5fd;
+	--color-blue-200: #bfdbfe;
+	--color-blue-100: #dbeafe;
+	--color-blue-50: #eff6ff;
+
 	/* Forensic Zinc - Sophisticated Grayscale */
 	--color-zinc-950: #0a0a0b;
 	--color-zinc-900: #18181b;
@@ -36,10 +36,10 @@
 	--color-foreground: #18181b;
 	--color-muted: #71717a;
 	--color-border: #e4e4e7;
-	--color-accent: #2fa88a; /* Sovereign Pine primary */
-	--color-primary-50: #f0fdf9;
-	--color-primary-100: #d7f5eb;
-	
+	--color-accent: #3b82f6; /* Centinel Blue primary */
+	--color-primary-50: #eff6ff;
+	--color-primary-100: #dbeafe;
+
 	/* Spacing */
 	--spacing-container: 1280px;
 }

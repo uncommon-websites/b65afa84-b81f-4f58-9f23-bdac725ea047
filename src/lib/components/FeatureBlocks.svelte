@@ -3,42 +3,62 @@
 </script>
 
 <!-- Block 1: Network-level bot detection -->
-<FeatureBlock 
-	title="Network-level bot detection" 
+<FeatureBlock
+	title="Network-level bot detection"
 	description="Detect stealth bots that evade traditional fingerprinting. Built from 15+ years of scraper expertise."
 	buttons={[
 		{ text: "SEE HOW IT WORKS", icon: true },
 		{ text: "REQUEST DEMO" }
 	]}
 >
-	<div class="w-full h-full bg-gray-950 border border-border rounded overflow-hidden relative">
-		<!-- Network Grid -->
-		<div class="absolute inset-0" style="background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 30px 30px;"></div>
-		
-		<!-- Detection Scanning Lines -->
-		<div class="absolute inset-0">
-			<div class="absolute top-1/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent animate-pulse"></div>
-			<div class="absolute top-2/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent animate-pulse" style="animation-delay: 0.3s;"></div>
-			<div class="absolute top-3/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent animate-pulse" style="animation-delay: 0.6s;"></div>
-		</div>
-		
-		<!-- Bot Detection Alerts -->
-		<div class="absolute top-4 left-4 bg-black/80 backdrop-blur-sm px-2 py-1 rounded border border-red-500/50 text-[10px] font-mono text-red-400">
-			<div class="flex items-center gap-1.5">
-				<span class="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></span>
-				<span class="text-white">AI SCRAPER DETECTED</span>
+	<div class="w-full h-full bg-white border border-border rounded overflow-hidden font-mono text-[10px]">
+		<!-- Header -->
+		<div class="flex items-center justify-between p-2 border-b border-border bg-gray-50">
+			<div class="flex items-center gap-2 text-muted">
+				<div class="w-4 h-4 rounded-full border-2 border-accent flex items-center justify-center">
+					<div class="w-1.5 h-1.5 bg-accent rounded-full"></div>
+				</div>
+				Network Analysis
+			</div>
+			<div class="flex items-center gap-1">
+				<span class="w-2 h-2 bg-green-500 rounded-full"></span>
+				<span class="text-green-600">LIVE</span>
 			</div>
 		</div>
-		
-		<div class="absolute bottom-4 right-4 bg-black/80 backdrop-blur-sm px-2 py-1 rounded border border-green-500/50 text-[10px] font-mono text-green-400">
-			<div class="flex items-center gap-1.5">
-				<span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-				<span class="text-white">BLOCKED AT EDGE</span>
-			</div>
+
+		<!-- Detection log -->
+		<div class="divide-y divide-border/50">
+			{#each [
+				{ ip: '185.220.101.42', type: 'GPTBot', level: 'high', status: 'blocked' },
+				{ ip: '91.108.56.178', type: 'Scrapy', level: 'high', status: 'blocked' },
+				{ ip: '66.249.66.1', type: 'Googlebot', level: 'safe', status: 'allowed' },
+				{ ip: '45.33.32.156', type: 'ClaudeBot', level: 'high', status: 'blocked' },
+				{ ip: '157.55.39.1', type: 'Bingbot', level: 'safe', status: 'allowed' }
+			] as entry}
+				<div class="flex items-center gap-3 p-2">
+					<span class="w-1.5 h-1.5 rounded-full {entry.status === 'blocked' ? 'bg-red-500' : 'bg-blue-500'}"></span>
+					<span class="text-muted w-28">{entry.ip}</span>
+					<span class="text-foreground flex-1">{entry.type}</span>
+					<span class="px-1.5 py-0.5 rounded text-[9px] uppercase {entry.status === 'blocked' ? 'bg-red-100 text-red-600' : 'bg-blue-100 text-blue-600'}">
+						{entry.status}
+					</span>
+				</div>
+			{/each}
 		</div>
-		
-		<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/80 backdrop-blur-sm px-3 py-2 rounded border border-primary-500/30 text-xs font-mono text-white">
-			30% MORE THREATS DETECTED
+
+		<!-- Footer stats -->
+		<div class="flex items-center justify-between p-2 border-t border-border bg-gray-50 text-muted">
+			<div class="flex items-center gap-4">
+				<div class="flex items-center gap-1">
+					<span class="w-2 h-2 bg-red-500 rounded-full"></span>
+					<span>3 blocked</span>
+				</div>
+				<div class="flex items-center gap-1">
+					<span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+					<span>2 allowed</span>
+				</div>
+			</div>
+			<div class="text-foreground font-medium">+30% detection</div>
 		</div>
 	</div>
 </FeatureBlock>
