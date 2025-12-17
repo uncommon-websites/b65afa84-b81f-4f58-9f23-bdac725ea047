@@ -17,20 +17,20 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Contact</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="mailto:hello@parallel.ai" class="hover:text-foreground">hello@parallel.ai</a></li>
+					<li><a href="mailto:simeon@centinelanalytica.com" class="hover:text-foreground">simeon@centinelanalytica.com</a></li>
 				</ul>
 			</div>
 
-			<!-- Products -->
+			<!-- Solutions -->
 			<div>
-				<h4 class="font-mono text-xs uppercase text-muted mb-4">Products</h4>
+				<h4 class="font-mono text-xs uppercase text-muted mb-4">Solutions</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">Search API</a></li>
-					<li><a href="#" class="hover:text-foreground">Extract API</a></li>
-					<li><a href="#" class="hover:text-foreground">Task API</a></li>
-					<li><a href="#" class="hover:text-foreground">FindAll API</a></li>
-					<li><a href="#" class="hover:text-foreground">Chat API</a></li>
-					<li><a href="#" class="hover:text-foreground">Monitor API</a></li>
+					<li><a href="#" class="hover:text-foreground">Bot Protection</a></li>
+					<li><a href="#" class="hover:text-foreground">AI Scraper Detection</a></li>
+					<li><a href="#" class="hover:text-foreground">Network-Level Defense</a></li>
+					<li><a href="#" class="hover:text-foreground">Publisher Dashboard</a></li>
+					<li><a href="#" class="hover:text-foreground">Crawler Management</a></li>
+					<li><a href="#" class="hover:text-foreground">CMS Integration</a></li>
 				</ul>
 			</div>
 
@@ -88,7 +88,7 @@
 				</div>
 			</div>
 			<div>
-				Parallel Web Systems Inc. 2025
+				Centinel Analytica 2025
 			</div>
 		</div>
 	</div>

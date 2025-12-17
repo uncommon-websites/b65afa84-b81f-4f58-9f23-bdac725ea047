@@ -5,38 +5,38 @@
 			<!-- Left Column: CTA & Visual -->
 			<div class="flex flex-col h-full">
 				<div class="mb-8">
-					<p class="font-mono text-xs text-muted mb-4">Start building</p>
-					<h2 class="text-2xl font-medium mb-4">Towards a programmatic web for AIs</h2>
+					<p class="font-mono text-xs text-muted mb-4">Protect your content</p>
+					<h2 class="text-2xl font-medium mb-4">Built by scraper experts, for publishers</h2>
 					<p class="text-muted font-light mb-8 text-sm leading-relaxed max-w-md">
-						Parallel is building new interfaces, infrastructure, and business models for AIs to work with the web
+						Centinel combines 15+ years of scraper development expertise with advanced behavioral fingerprinting to stop AI bots from stealing your content
 					</p>
 					<div class="flex gap-3 mb-12">
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							TRY IT FOR FREE
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">P</span>
+							REQUEST DEMO
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">D</span>
 						</button>
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							JOIN US
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">J</span>
+							START PILOT
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">P</span>
 						</button>
 					</div>
 				</div>
 				
-				<!-- Barcode Visual -->
-				<div class="mt-auto w-full h-48 bg-black relative overflow-hidden flex items-center justify-center">
-					{#each Array(100) as _, i}
-						<div 
-							class="h-full bg-white absolute" 
-							style="
-								left: {i}%; 
-								width: {Math.random() * 2}%; 
-								opacity: {Math.random()};
-							"
-						></div>
-					{/each}
+				<!-- Bot Detection Visual -->
+				<div class="mt-auto w-full h-48 bg-gray-950 relative overflow-hidden flex items-center justify-center border border-border">
+					<!-- Network Grid -->
+					<div class="absolute inset-0" style="background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 20px 20px;"></div>
+					
+					<!-- Scanning Effect -->
+					<div class="absolute inset-0">
+						<div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent animate-pulse"></div>
+						<div class="absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent animate-pulse" style="animation-delay: 0.5s;"></div>
+						<div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent animate-pulse" style="animation-delay: 1s;"></div>
+					</div>
+					
 					<div class="absolute inset-0 flex items-center justify-center">
-						<div class="bg-black text-white font-mono text-[10px] px-2 py-1 z-10">
-							parallel.web
+						<div class="bg-gray-950 text-white font-mono text-[10px] px-3 py-1.5 z-10 border border-red-500/30">
+							BOT DETECTED • BLOCKED
 						</div>
 					</div>
 				</div>
