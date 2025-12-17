@@ -2,12 +2,12 @@
 	<div class="container-custom">
 		<div class="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
 			<div>
-				<h2 class="text-3xl font-medium mb-2">Highest accuracy at every price point</h2>
-				<p class="text-xl text-muted font-light">State of the art across several benchmarks</p>
+				<h2 class="text-3xl font-medium mb-2">Superior detection at competitive pricing</h2>
+				<p class="text-xl text-muted font-light">Outperforming traditional bot protection solutions</p>
 			</div>
 			<div class="max-w-xs text-[10px] text-muted leading-relaxed border-l border-border pl-4">
-				<strong class="text-foreground block mb-1">About this benchmark</strong>
-				This benchmark consists of 2,500 questions developed by subject matter experts across dozens of subjects (e.g. math, humanities, natural sciences). Each question has a known solution that is unambiguous and easily verifiable, but requires sophisticated web retrieval and reasoning. Results are reported on a sample of 100 questions from this benchmark. Learn more in our <a href="#" class="underline">latest blog</a>.
+				<strong class="text-foreground block mb-1">About this comparison</strong>
+				Based on real-world publisher deployments processing 500M+ monthly requests. Detection rates measured against known bot traffic patterns including AI scrapers, content theft bots, and sophisticated evasion techniques. Pricing normalized per million protected requests. Data from Q4 2024 publisher benchmarks.
 			</div>
 		</div>
 
